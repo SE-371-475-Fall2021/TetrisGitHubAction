@@ -57,7 +57,7 @@
                         <!-- Default configuration for running -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.depaul.app.Main</mainClass>
+                            <mainClass>org.depaul/org.depaul.app.Main</mainClass>
                         </configuration>
                     </execution>
                     <execution>
@@ -67,7 +67,7 @@
                             <options>
                                 <option>-agentlib:jdwp=transport=dt_socket,server=n,address=localhost:8000,suspend=y</option>
                             </options>
-                            <mainClass>org.depaul.app.Main</mainClass>
+                            <mainClass>org.depaul/org.depaul.app.Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>
