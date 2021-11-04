@@ -21,7 +21,7 @@ public class Main extends Application {
         Parent root = fxmlLoader.load();
         GuiController c = fxmlLoader.getController();
 
-        primaryStage.setTitle("Tetris - GSD Fall 2021 - Division ??");
+        primaryStage.setTitle("Tetris - GSD Fall 2021 - Division ?? Vahid");
         Scene scene = new Scene(root, 400, 510);
         primaryStage.setScene(scene);
         primaryStage.show();
