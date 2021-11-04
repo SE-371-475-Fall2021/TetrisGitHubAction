@@ -1,0 +1,3 @@
+app: src/main/java/org/depaul/app/*
+gui: src/main/java/org/depaul/gui/**/*
+logic: src/main/java/org/depaul/logic/**/*
